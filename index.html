@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Procont.digital v2</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/Social-Icons.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="background-image: url(&quot;assets/img/fundo%20site2.png&quot;);">
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+        <div class="container"><div>
+<a href="index.html"><img src="assets/img/LOGO%20HORIZONTAL%20TRANSPARENTE.png" class="logo"></a>
+</div><button class="navbar-toggler" data-bs-toggle="collapse"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button><span id="navcol-1"><div class="collapse navbar-collapse" id="navcol-1">
+    <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#planos">PLANOS</a></li>
+        <li class="nav-item"><a class="nav-link" href="Baixeagora.html">BAIXE AGORA</a></li>
+        <li class="nav-item"><a class="nav-link" href="Contato.html">CONTATO</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">LOGIN</a></li>
+    </ul>
+</div></div>
+    </nav>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <section style="padding-top: 80px;margin-left: 30px;">
+                        <h6 class="introducao">Contabilidade</h6>
+                        <div></div>
+                        <h6 class="introducao">da sua empresa</h6>
+                        <div></div>
+                        <h6 class="introducao">de forma</h6>
+                        <div></div>
+<h6 class=introducao><span class="typed-text"></span><span class="cursor">&nbsp;</span></h6>
+
+
+
+<script>
+
+
+
+const typedTextSpan = document.querySelector(".typed-text");
+const cursorSpan = document.querySelector(".cursor");
+
+const textArray = ["prática", "segura", "econômica", "online"];
+const typingDelay = 200;
+const erasingDelay = 100;
+const newTextDelay = 2000; // Delay between current and next text
+let textArrayIndex = 0;
+let charIndex = 0;
+
+function type() {
+  if (charIndex < textArray[textArrayIndex].length) {
+    if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+    typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+    charIndex++;
+    setTimeout(type, typingDelay);
+  } 
+  else {
+    cursorSpan.classList.remove("typing");
+    setTimeout(erase, newTextDelay);
+  }
+}
+
+function erase() {
+  if (charIndex > 0) {
+    if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+    typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex-1);
+    charIndex--;
+    setTimeout(erase, erasingDelay);
+  } 
+  else {
+    cursorSpan.classList.remove("typing");
+    textArrayIndex++;
+    if(textArrayIndex>=textArray.length) textArrayIndex=0;
+    setTimeout(type, typingDelay + 1100);
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
+  if(textArray.length) setTimeout(type, newTextDelay + 250);
+});
+
+
+
+</script>
+                    </section>
+                    <section><a href="Contato.html"><button class="btn-outline-primary" id="button" type="button" >QUERO FALAR COM A PROCONT</button></a></section>
+                </div>
+                <div class="col-md-6">
+                    <section><video playsinline="" autoplay="" loop="" muted="" width="100%" height="600">
+	<source src="http://procontcontabilidade.com/video/video%202.mp4" type="video/mp4">
+	seu navegador nao suporta este video
+
+</video></section>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section style="margin-top: 50px;text-align: center;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12"><img src="assets/img/Screen_Showcase.png" style="width: 80%;"></div>
+            </div>
+        </div>
+    </section>
+    <section style="margin-bottom: 150px;margin-top: 50px;text-align: center;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"><img src="assets/img/escudo(1).png" style="width: 30%;margin-bottom: 20px;">
+                    <h2 style="font-family: Roboto;font-weight: bold;color: #212121;font-size: 28px;margin-bottom: 15px;">Seguro</h2>
+                    <p style="font-family: Roboto;color: #212121;font-size: 18px;">Aplicativo super seguro, acompanhado por um contador com integração automática de dados e responsabilidade técnica.</p>
+                </div>
+                <div class="col-md-4"><img src="assets/img/tela-sensivel-ao-toque(1).png" style="width: 30%;margin-bottom: 20px;">
+                    <h2 style="font-family: Roboto;font-weight: bold;color: #212121;font-size: 28px;margin-bottom: 15px;">Fácil</h2>
+                    <p style="font-family: Roboto;color: #212121;font-size: 18px;">Experiência única do usuário. Navegação fácil e simplificada. Fale com seu contador das 09:00h às 12:00h e das 14:00h às 17:00h de segunda a sexta.</p>
+                </div>
+                <div class="col-md-4"><img src="assets/img/preco-baixo(1).png" style="width: 30%;margin-bottom: 20px;">
+                    <h2 style="font-family: Roboto;font-weight: bold;color: #212121;font-size: 28px;margin-bottom: 15px;">Acessível</h2>
+                    <p style="font-family: Roboto;color: #212121;font-size: 18px;">Preço fixo mensal, sem cobrança de serviços adicionais. Você sabe exatamente quanto custa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="text-align: center;"><div class="brands" id="planos"></div>
+        <h2 style="font-size: 40px;"><br>Encontre o plano ideal para o seu negócio.<br></h2>
+        <h3 style="font-size: 25px;color: #487cff;margin-bottom: 50px;">Qual plano se encaixa melhor para a sua empresa?<br></h3>
+        <div class="container" style="width: 70%;"><head>
+
+</head>
+<body>
+
+<div>
+  <table class="table" align=center>
+    <thead>
+        <tr class="">
+            <th class="simples"><span>Simples Serviço</span></th>
+            <th class="plano1"> Básico <span class=""><br>A partir de <br>R$199/mês</span> </th>
+            <th class="plano2"> Plus <span class=""><br>A partir de <br>R$249/mês</span> </th>
+            <th class="plano3"> Premium <span class=""><br>A partir de <br>R$299/mês</span> </th>
+        </tr>
+    </thead>
+  <tbody>
+  	<tr class="servico">
+      <th scope="row">Processos Iniciais</th>
+	  <th></th><th></th><th></th>
+    </tr>
+	
+    <tr class="textotabela">
+      <td>Contabilidade Completa</td>
+      <td><span class="features__tick"></span></td>
+      <td><span class="features__tick"></span></td>
+      <td><span class="features__tick"></span></td>
+    </tr>
+	<tr class="textotabela">
+      <td>Processo de abertura grátis</td>
+      <td><span class="features__tick"></span></td>
+      <td><span class="features__tick"></span></td>
+      <td><span class="features__tick"></span></td>
+    </tr>
+	<tr>
+	
+	<! ==================================================================================================== >
+	
+	<tr class="servico">
+		<th scope="row">Rotinas</th>
+		<th></th><th></th><th></th>
+    </tr>
+	
+    <tr class="textotabela">
+      <td>Emissor de NF's</td>
+      <td><span class="features__tick"></span></td>
+      <td><span class="features__tick"></span></td>
+      <td><span class="features__tick"></span></td>
+    </tr>
+	
+	<tr class="textotabela">
+      <td>Emissor de Boletos</td>
+      <td>R$ 3,50 por boleto</td>
+      <td>R$ 3,50 por boleto</td>
+      <td>R$ 3,50 por boleto</td>
+    </tr>
+	
+	<tr class="textotabela">
+      <td>Painel Financeiro</td>
+      <td><span class="features__tick"></span></td>
+      <td><span class="features__tick"></span></td>
+      <td><span class="features__tick"></span></td>
+    </tr>
+	
+		<! ==================================================================================================== >
+		
+	<tr class="servico">
+      <th scope="row">Funcionários</th>
+		<th></th><th></th><th></th>
+    </tr>
+	
+    <tr class="textotabela">	
+      <td>Pró-labore dos sócios</td>
+      <td>até 2 sócios grátis</td>
+      <td>até 2 sócios grátis</td>
+      <td>até 2 sócios grátis</td>
+    </tr>
+	
+	 <tr class="textotabela">
+      <td>Folha de Pagamento</td>
+      <td>Cobrado à parte</td>
+      <td>até 1 funcionários grátis</td>
+      <td>até 2 funcionários grátis</td>
+    </tr>
+	
+		<! ==================================================================================================== >
+	
+	<tr class="servico">
+      <th scope="row">Canais de Atendimento</th>
+		<th></th><th></th><th></th>
+    </tr>
+	
+    <tr class="textotabela">
+      <td>Aplicativo</td>
+      <td><span class="features__tick"></span></td>
+      <td><span class="features__tick"></span></td>
+      <td><span class="features__tick"></span></td>
+    </tr>
+	
+	<tr class="textotabela">
+      <td>Whatsapp</td>
+      <td></td>
+      <td><span class="features__tick"></span></td>
+      <td><span class="features__tick"></span></td>
+    </tr>
+	
+	<tr class="textotabela">
+      <td>Telefone</td>
+      <td></td>
+      <td></td>
+      <td><span class="features__tick"></span></td>
+    </tr>
+	
+		<! ==================================================================================================== >
+	
+	<tr class="servico">
+      <th scope="row">Horários de Atendimento</th>
+		<th></th><th></th><th></th>
+    </tr>
+	
+    <tr class="textotabela">
+      <td>9h às 17h</td>
+      <td><span class="features__tick"></span></td>
+      <td><span class="features__tick"></span></td>
+      <td><span class="features__tick"></span></td>
+	  </tr>
+	
+		<! ==================================================================================================== >
+	
+	<tr class="servico">
+     <th scope="row">Condições</th>
+		<th></th><th></th><th></th>
+    </tr>
+	
+    <tr class="textotabela">
+      <td>Faturamento</td>
+      <td>até R$ 25.000</td>
+      <td>até R$ 50.000</td>
+      <td>até R$ 100.000</td>
+    </tr>
+	
+	<tr class="textotabela">
+      <td>Regime tributário</td>
+      <td>Simples Nacional</td>
+      <td>Simples Nacional</td>
+      <td>Simples Nacional</td>
+    </tr>
+	
+  </tbody>
+    <tfoot>
+        <tr>
+            <td></td>
+            <td><a href="Contato.html"><button id=botaotabela1 class="btn btn-primary" type="button" href="Contato.html" >Falar com a Procont</button></a></td>
+            <td><a href="Contato.html"><button id=botaotabela2 class="btn btn-primary" type="button" href="Contato.html">Falar com a Procont</button></a></td>
+            <td><a href="Contato.html"><button id=botaotabela3 class="btn btn-primary" type="button" href="Contato.html">Falar com a Procont</button></a></td>
+        </tr>
+    </tfoot>
+</table>
+</div></div>
+    </section>
+    <section style="margin-top: 100px;margin-bottom: 100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12"><h2 style="font-size: 40px;  margin-bottom: 100px;">Trocar de contador <font color="#487cff">é fácil com a Procont</font></h2></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" style="justify-content: center;">
+                <div class="col-md-3" style="width: 21%;margin-right: 30px;padding-top: 80px;padding-bottom: 60px;text-align: center;border: solid;border-width: 2px;border-color: #487cff;">
+                    <h3 style="color: #487cff;padding-bottom: 20px;font-size: 30px;font-family: Roboto;">Passo 1</h3>
+                    <p style="color: #212121;font-family: Roboto;font-size: 14px;">Entre em contato com nosso <br>time pelo WhatsApp ou formulário do site.<br><br></p>
+                </div>
+                <div class="col-md-3" style="width: 21%;margin-right: 30px;padding-top: 80px;padding-bottom: 60px;text-align: center;border: solid;border-width: 2px;border-color: #487cff;">
+                    <h3 style="color: #487cff;padding-bottom: 20px;font-size: 30px;font-family: Roboto;">Passo 2</h3>
+                    <p style="color: #212121;font-family: Roboto;font-size: 14px;">Após efetuado o pagamento da <br>1ª mensalidade nós iniciamos <br>a prestação de ser viços.<br></p>
+                </div>
+                <div class="col-md-3" style="width: 21%;margin-right: 30px;padding-top: 80px;padding-bottom: 60px;text-align: center;border: solid;border-width: 2px;border-color: #487cff;">
+                    <h3 style="color: #487cff;padding-bottom: 20px;font-size: 30px;font-family: Roboto;">Passo 3</h3>
+                    <p style="color: #212121;font-family: Roboto;font-size: 14px;">Nesta etapa, nós solicitamos a <br>você os documentos para a <br>transferência da sua antiga <br>contabilidade.<br></p>
+                </div>
+                <div class="col-md-3" style="width: 21%;padding-top: 80px;padding-bottom: 60px;text-align: center;border: solid;border-width: 2px;border-color: #487cff;">
+                    <h3 style="color: #487cff;padding-bottom: 20px;font-size: 30px;font-family: Roboto;">Passo 4</h3>
+                    <p style="color: #212121;font-family: Roboto;font-size: 14px;">Pronto! Agora você é digital e <br>f az par te do time Procont.<br></p>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="text-align: center;">
+            <div class="row">
+                <div class="col-md-12"><h2 id="burocracia" >Viu só como é <font color="#487cff">fácil</font>? Sem burocracia e super rápido</h2></div>
+            </div><a href="Contato.html"><button id=botaocontador class="btn btn-primary" type="button" >Trocar de contador</button></a>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row" style="text-align: center;margin-top: 70px;margin-bottom: 100px;">
+                <div class="col-md-12">
+                    <h2 style="display: block;font-size: 40px;font-family: Roboto;">Ainda com dúvidas?<br></h2><h2 style="font-size: 16px;font-family: Roboto;">Clique <a class="linkduvida" color="#487cff" href="">aqui</a> e veja nossa área de dúvidas frequentes ou aqui <a class="linkduvida" color="#487cff" href="Contato.html">entre em contato</a><br /></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-dark" style="padding-top: 50px;padding-bottom: 50px;background-color: #003366;">
+        <div class="container">
+            <div class="row" style="margin-bottom: 20px;">
+                <div class="col-md-4" style="font-family: roboto;color: #ffffff;width: 60%;"><img src="assets/img/LOGO%20HORIZONTAL%20TRANSPARENTE.png" style="height: auto;width: 30%;margin-bottom: 10px;" href="#">
+                    <hr style="margin-top: -0.5%;color: #ffffff;">
+                    <h2 style="display: block;font-size: 25px;font-family: Roboto;"><br>Mídias sociais<br></h2>
+                    <h2 style="font-size: 16px;font-family: Roboto;">Siga as nossas páginas e saiba as novidades sobre a Procont<br></h2>
+                    <div class="social-icons" style="text-align: left;background-color: #003366;margin-bottom: 20px;"><a href="https://www.facebook.com/procontse/"><i class="fab fa-facebook-square"></i></a><a href="https://www.instagram.com/procont.digital/"><i class="fab fa-instagram"></i></a><a href="#Em Breve"><i class="fab fa-youtube"></i></a><a href="https://br.linkedin.com/company/procont-contabilidade"><i class="fab fa-linkedin-in"></i></a></div>
+                </div>
+                <div class="col-md-4" style="width: 20%;"><a class=termos href="">POLÍTICA DE PRIVACIDADE<br /></a>
+</div>
+                <div class="col-md-4" style="width: 20%;"><a class=termos href="">TERMOS DE USO<br /></a></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12" style="font-family: roboto;color: #ffffff;">
+                    <hr style="margin-top: -0.5%;color: #ffffff;">
+                    <p style="font-size: 14px;">A Procont buscar oferecer aos empreendedores maior transparência, praticidade e economia. Usando a tecnologia para popularizar os serviços de contabilidade online para micro e pequenas empresas.<br></p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" style="margin-bottom: 20px;">
+                <div class="col-md-4" style="font-family: roboto;color: #ffffff;width: 60%;">
+                    <p style="font-size: 23px;">Procont Escritório de Contabilidade</p>
+                    <div style="line-height: 0.7;margin-bottom: 40px;">
+                        <p>ARACAJU:</p>
+                        <p style="font-size: 14px;">R. Deoseane Vieira de Freitas, 3610, sala 1, Grangeru, 49026-040</p>
+                        <p style="font-size: 14px;margin-left: 15px;">• Procont Contabilidade | CNPJ: 26.154.946/0001-04<br></p>
+                    </div>
+                    <div style="line-height: 0.7;">
+                        <p>ESTÂNCIA:</p>
+                        <p style="font-size: 14px;">R. Monsenhor José Paes Santiago, 212, Centro, 49200-000</p>
+                        <p style="font-size: 14px;margin-left: 15px;">• Procont Contabilidade | CNPJ: 08.107.620/0001-36</p>
+                        <p style="font-size: 14px;margin-left: 15px;">• Procont Tecnologia | CNPJ: 40.502.805/0001-58</p>
+                        <p style="font-size: 14px;">- Conselho Regional de Contabilidade:</p>
+                        <p style="font-size: 14px;">- Responsável Técnico: </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 item text">
+                    <p style="color: #b2b3bb;">© 2021 Procont Contabilidade LTDA. Todos os direitos reservados.<br></p>
+                </div>
+            </div>
+        </div>
+    </footer><!-- botão flutuante whatsapp -->
+
+<a href="https://api.whatsapp.com/send?phone=5579998915461"
+    target="_blank"
+    style="position:fixed;bottom:60px;right:30px;">
+    <img src="assets/img/whatsapp.png" alt="Contato pelo WhatsApp" />
+    
+</a>
+
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/61029e82649e0a0a5cce8361/1fc8lfahn';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+<!--End of Tawk.to Script-->
+<style>
+	.chat {
+		z-index: 9;
+		position:fixed;
+		right: 0px;
+		bottom: 5px;
+	}
+</style>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/EstadoeCidades.js"></script>
+    <script src="assets/js/JavaScript.js"></script>
+</body>
+
+</html>
